@@ -1,0 +1,145 @@
+li{
+    list-style: none;
+}
+.main-nav{
+    margin-top: 35px;
+    padding:0%;
+    background-color: aquamarine;
+}
+
+.main-nav__item{
+    display:inline-block;
+}
+
+.main-nav__item a{
+    color:brown;
+    padding:5px;
+    border-radius: 2px;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+/*Para crear un efecto de cambio de color, y la sensacion de movimiento al colocar el mouse
+arriba del elemento: Hemos procedido a cambiar el color del elemento y el tamaño, 
+de esta forma se crea la sensacion de movimiento cuando se coloca el mouse*/
+.main-nav__item a:hover{
+    background-color:darkgrey;
+    font-size: 15px;
+
+}
+/*iconos que se encuentran en la barra de navegacion*/
+.main-nav_icon{
+    width: 35px;
+}
+
+
+
+/*Logo circular con todas las banderas*/
+.main-nav__logo{
+    padding:0px;
+    margin-right: 35px;
+    width:250px;
+    float:right;
+    margin-top: 0px;
+
+   
+}
+.main-nav__item__TravelText{
+    display:inline-block;
+    color:brown;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main-nav__logo:hover{
+    width:200px;
+}
+
+body{
+    background-color:rgb(107, 150, 136);
+}
+
+/*main div que contiene las ofertas*/
+.main-div_ofertas{
+    width: 870px;
+    height: 980px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.main-div_ofertas_divlogin{
+    width:480px;
+    height: 120px;
+    background-color: rgb(186, 236, 236);
+    float:right;
+}
+
+.main-div_ofertas_divlogin_text{
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(6, 51, 65);
+}
+
+.main-div_ofertas_Welcome{
+    width:380px;
+    height:120px;
+    margin-right: 25px;
+    background-color: aqua;
+   
+}
+
+.main-div_ofertas_Of1{
+
+    width:710px;
+    height:150px;
+    margin-left: 65px;
+    margin-top: 50px;;
+    background-color: beige;
+    float:inline-start;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    color:cadetblue;
+    margin-top: 5px;
+}
+.main-div_ofertas_of1_Parrafos{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 2px;
+    font-family: sans-serif;
+    color:rgb(88, 49, 49);
+}
+
+.main-div_ofertas_Of1_divBandera{
+    float:left;
+}
+.main-div_ofertas_Of1_divBandera_icon{
+    width: 100px;
+}
+.main-div_ofertas_WelcomeImg{
+    width:200px;
+    float:left;
+    margin-left: 50px;
+}
+
+.calendarios{
+    margin-left: 0%;
+    float:left;
+    margin-top:5%;
+    background-color: bisque;
+    width: 530px;
+    height: 350px;
+}
+
+.flightInformation{
+    background-color: burlywood;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 530px;
+    height: 600px;
+}
+
+
